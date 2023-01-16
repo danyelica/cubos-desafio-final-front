@@ -16,7 +16,7 @@ No fork de vocês, favor alterar este README para adicionar os links corresponde
 
 **Repositório de Frontend**: https://github.com/danyelica/cubos-desafio-final-front
 
-**URL da aplicação funcionando**: 
+**URL da aplicação funcionando**: https://dany-desafio-final-front.vercel.app/
 
 ---
 
