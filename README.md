@@ -12,25 +12,13 @@ A versão final do código de cada sprint deverá estar na branch principal do r
 
 No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
 
-**Repositório de Backend**: 
+**Repositório de Backend**: https://github.com/danyelica/back-desafio-final
 
-**Repositório de Frontend**: 
+**Repositório de Frontend**: https://github.com/danyelica/cubos-desafio-final-front
 
 **URL da aplicação funcionando**: 
 
 ---
-
-E os itens abaixo, que deverão ser preenchidos apenas após a finalização de todas as sprints do projeto: 
-
-**Pull Request (PR) de Backend**: 
-
-**Pull Request (PR) de Frontend**: 
-
-Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do fork correspondente de vocês daquela stack tendo como destino o repositório base da stack do desafio.
-
-Ou seja, o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
-
-E portanto o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês do repositório base de BACKEND desse desafio, com destino ao [repositório base de BACKEND desse desafio](https://github.com/cubos-academy/back-integral-m05-t07).
 
 <b>[Figma Desafio M05 - Sprint 1](https://www.figma.com/file/Gpl5YlCj17jJ99dT3LqV6U/M05-SPRINT-01?node-id=410%3A47347)</b>
 
