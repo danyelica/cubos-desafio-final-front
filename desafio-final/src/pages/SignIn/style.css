@@ -1,0 +1,94 @@
+.container-sign-in {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--color-scale-gray-10);
+}
+
+.div-image-sign-in {
+    width: 30%;
+    height: 100vh;
+    background-image: url("../../assets/background-image-sign-in.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.div-filter-sign-in {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(3, 74, 42, 0.05);
+    padding: 15.8rem 1rem;
+    text-align: center;
+}
+
+.h2-sign-in-title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 130%;
+    color: var(--color-secundary-1);
+}
+
+.div-form-sign-in {
+    width: 70%;
+    height: 100vh;
+}
+
+.h1-sign-in-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: var(--color-scale-gray-1);
+    margin-bottom: 3.2rem;
+}
+
+.form-sign-in {
+    gap: 2rem;
+}
+
+.link-forgot-password {
+    position: absolute;
+    right: 0;
+    font-size: 1.4rem;
+    line-height: 130%;
+    z-index: 1;
+}
+
+.form-sign-in-buttom {
+    all: unset;
+    box-sizing: border-box;
+    width: 16rem;
+    height: 3.3rem;
+
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+
+    color: var(--color-scale-gray-10);
+    background-color: var(--color-primary-2);
+    border-radius: 1rem;
+    padding: 0.4rem;
+    text-align: center;
+    margin: 2rem auto 0rem;
+    cursor: pointer;
+}
+
+.link-to-sign-up {
+
+    margin: auto;
+    font-size: 1.4rem;
+    line-height: 130%;
+}
+
+.link-to-sign-up .link {
+    text-decoration: underline;
+    color: var(--color-primary-2);
+}
+
+.error-inputs {
+    position: absolute;
+    top: 7.2rem;
+
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: var(--color-feed-back-red-2);
+}

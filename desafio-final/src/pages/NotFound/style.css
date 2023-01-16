@@ -1,0 +1,14 @@
+.container-not-found .btn-not-found {
+    all: unset;
+    width: 23.15rem;
+    height: 3.3rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    color: var(--color-scale-gray-11);
+    background-color: var(--color-primary-2);
+}

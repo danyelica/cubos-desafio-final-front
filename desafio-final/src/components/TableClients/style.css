@@ -1,0 +1,96 @@
+.table-clients {
+    padding: 1.2rem 2.3rem;
+    font-size: 1.6rem;
+    cursor: default;
+}
+
+.thead-tr-th {
+    width: 186px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 5rem;
+
+    text-align: left;
+    color: var(--color-scale-gray-2);
+}
+
+.div-order-by {
+    cursor: pointer;
+}
+
+.icon-order-by {
+    margin: 1rem 0.4rem;
+}
+
+.tbody-tr-th {
+    width: 186px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    /*  line-height: 4rem; */
+    text-align: left;
+    color: var(--color-scale-gray-3);
+    cursor: default;
+    border-top: 0.1rem solid var(--color-support-green-4);
+}
+
+.icon-add-charge {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.div-add-charge {
+    cursor: pointer;
+    width: 35px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+    text-align: start;
+    color: var(--color-primary-2);
+}
+
+.btn-defaulter-clients {
+    all: unset;
+    width: 100px;
+    color: var(--color-feed-back-red-0);
+    background-color: var(--color-feed-back-red-6);
+
+}
+
+.btn-no-defaulter-clients {
+    all: unset;
+    width: 96px;
+    color: var(--color-support-green-1);
+    background-color: var(--color-support-green-3);
+}
+
+.btn-status {
+    height: 19px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    padding: 0rem 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.tbody-tr .tr-th-client {
+    cursor: pointer;
+}
+
+@media (min-width: 1600px) {
+    .thead-tr-th {
+        width: 250px;
+        font-size: 1.9rem;
+    }
+
+    .tbody-tr-th {
+        width: 250px;
+        font-size: 1.6rem;
+    }
+}

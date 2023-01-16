@@ -1,0 +1,35 @@
+.label {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-scale-gray-0);
+    margin-bottom: 0.6rem;
+}
+
+.inputs {
+    width: 344px;
+    height: 44px;
+    padding: 1rem 1.4rem;
+    gap: 0.8;
+
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+
+    color: var(--color-scale-gray-2);
+    background-color: #FFFFFF;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+
+    border: 0.1rem solid var(--color-scale-gray-7);
+    border-radius: 0.8rem;
+}
+
+.inputs::placeholder {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.inputs-error {
+    border: 0.1rem solid var(--color-feed-back-red-2);
+}

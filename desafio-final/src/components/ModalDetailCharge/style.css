@@ -1,0 +1,35 @@
+.details__container {
+  margin: auto;
+  width: 600px;
+  height: auto;
+  background-color: var(--color-scale-gray-11);
+  border-radius: 3rem;
+  padding: 4rem 5.5rem;
+  gap: 8px;
+}
+
+.details__text {
+  font-family: "Nunito";
+  font-size: 1.6rem;
+
+  color: var(--color-scale-gray-2);
+}
+
+.details__title {
+  margin-top: 1.7rem;
+  width: 10.8rem;
+
+  font-weight: 700;
+}
+
+.details__item {
+  font-weight: 400;
+}
+
+.details__column {
+  gap: 8px;
+}
+
+.details__column:first-child {
+  margin-right: 15rem;
+}

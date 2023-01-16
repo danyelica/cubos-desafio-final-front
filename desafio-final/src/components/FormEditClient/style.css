@@ -1,0 +1,83 @@
+.form-modal-register-client {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background-color: var(--color-scale-gray-11);
+    border-radius: 3rem;
+    padding: 4rem 5.5rem;
+    gap: 2rem;
+}
+
+.form-modal-icon-client {
+    width: 32px;
+    height: 32px;
+}
+
+.form-modal-title {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    margin-left: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--color-scale-gray-2);
+}
+
+.icon-close-modal {
+    position: absolute;
+    right: 2.4rem;
+    top: 2.4rem;
+    cursor: pointer;
+}
+
+.modal .form-modal-inputs {
+    width: 487px;
+}
+
+.div-form-flex-row {
+    justify-content: space-between;
+}
+
+.modal .form-modal-input-cpf {
+    width: 235px;
+}
+
+.modal .form-modal-input-telephone {
+    width: 224px;
+}
+
+.modal .form-modal-input-district {
+    width: 235px;
+}
+
+.modal .form-modal-input-city {
+    width: 303px;
+}
+
+.modal .form-modal-input-state {
+    width: 160px;
+}
+
+.btn-form-modal {
+    all: unset;
+    width: 23.15rem;
+    height: 3.3rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 5.7rem;
+}
+
+.btn-cancel {
+    background-color: var(--color-scale-gray-10);
+    border: 1px solid var(--color-scale-gray-8);
+    color: var(--color-secundary-2);
+}
+
+.btn-to-apply {
+    background-color: var(--color-primary-2);
+    border: 1px solid var(--color-primary-2);
+    color: var(--color-scale-gray-10);
+}

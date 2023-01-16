@@ -1,0 +1,92 @@
+.sign-up {
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  background-color: #f8f8f9;
+}
+
+.css-1pe7n21-MuiStepConnector-root {
+  border-color: rgb(14, 135, 80);
+  border-left-style: solid;
+  border-left-width: 3px;
+
+  min-height: 4rem;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label__text {
+  position: relative;
+  top: 10px;
+
+  max-height: 5.5rem;
+}
+
+.sign-up__inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.password--icon {
+  position: relative;
+  top: -35px;
+  left: 90%;
+
+  cursor: pointer;
+}
+
+.password--icon img {
+  width: 20px;
+}
+
+.sign-up .sign-up__link {
+  text-decoration-line: underline;
+  color: #da0175;
+}
+
+.sign-up__link:hover {
+  color: #9c0c59;
+}
+
+.sign-up__last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 25px;
+
+  width: 600px;
+  height: 60vh;
+
+  background-color: #f0f0f5;
+  border-radius: 30px;
+}
+
+.stepper--bottom {
+  position: absolute;
+
+  bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.stepper {
+  width: 82px;
+  height: 6px;
+
+  background-color: #dedee9;
+  border-radius: 20px;
+}
+
+.stepper--active {
+  background-color: #0e8750;
+}

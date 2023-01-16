@@ -1,0 +1,52 @@
+.aside__bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    min-width: 110px;
+    width: 110px;
+    height: 100%;
+    background-color: var(--color-scale-gray-9);
+}
+
+.bar__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+
+    margin-top: 4.5rem;
+}
+
+.is-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 110px;
+    border-right: 2px solid var(--color-primary-2);
+    color: var(--color-primary-2);
+}
+
+.icons__text--active {
+    color: var(--color-primary-2);
+}
+
+a:-webkit-any-link {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 1.6rem;
+
+    text-decoration: none;
+
+    color: var(--color-scale-gray-1);
+}
+
+.inactive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inactive img {
+    max-width: 48px;
+}

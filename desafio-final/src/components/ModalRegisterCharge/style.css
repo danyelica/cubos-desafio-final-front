@@ -1,0 +1,9 @@
+.form-modal-register-client {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background-color: var(--color-scale-gray-11);
+    border-radius: 3rem;
+    padding: 4rem 5.5rem;
+    gap: 1.6rem;
+}

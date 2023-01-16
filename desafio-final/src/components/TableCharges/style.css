@@ -1,0 +1,147 @@
+.table-clients {
+    padding: 1.2rem 2.3rem;
+    font-size: 1.6rem;
+    cursor: default;
+    background-color: var(--color-scale-gray-11);
+    border-radius: 3rem;
+}
+
+.thead-tr-th {
+    width: 186px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 5rem;
+
+    text-align: left;
+    color: var(--color-scale-gray-2);
+}
+
+.div-order-by {
+    cursor: pointer;
+}
+
+.icon-order-by {
+    margin: 1rem 0.4rem;
+}
+
+.tbody-tr-th {
+    width: 186px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    /*  line-height: 4rem; */
+    text-align: left;
+    color: var(--color-scale-gray-3);
+    cursor: default;
+    border-top: 0.1rem solid var(--color-support-green-4);
+}
+
+.icon-add-charge {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.div-add-charge {
+    cursor: pointer;
+    width: 35px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+    text-align: start;
+    color: var(--color-primary-2);
+}
+
+.btn-defaulter-charges {
+    all: unset;
+    width: 100px;
+    color: var(--color-feed-back-red-0);
+    background-color: var(--color-feed-back-red-6);
+
+}
+
+.btn-no-defaulter-charges {
+    all: unset;
+    width: 96px;
+    color: var(--color-support-green-1);
+    background-color: var(--color-support-green-3);
+}
+
+.btn-pending-charges {
+    all: unset;
+    width: 96px;
+    color: var(--color-support-yellow-1);
+    background-color: var(--color-support-yellow-3);
+}
+
+.btn-status {
+    height: 19px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    padding: 0rem 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.tr-th-description {
+    max-width: 186px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tr-th-description-span {
+    white-space: nowrap;
+}
+
+.icon-edit-charge {
+    width: 16px;
+    margin-bottom: 0.7rem;
+}
+
+.icon-delete-charge {
+    width: 16px;
+    margin-bottom: 0.7rem;
+}
+
+.tr-th-btns {
+    gap: 2rem
+}
+
+.icon-edit-charge-span {
+    color: var(--color-scale-gray-3);
+}
+
+.icon-delete-charge-span {
+    color: var(--color-feed-back-red-1);
+}
+
+.table-tbody-tr-td {
+    position: relative;
+    height: 550px;
+}
+
+.table-tbody-tr-td-image {
+    width: 700px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 1600px) {
+    .thead-tr-th {
+        width: 250px;
+        font-size: 1.9rem;
+    }
+
+    .tbody-tr-th {
+        width: 250px;
+        font-size: 1.6rem;
+    }
+}

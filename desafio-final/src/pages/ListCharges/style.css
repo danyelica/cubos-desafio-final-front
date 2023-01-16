@@ -1,0 +1,20 @@
+.icon-list-charges {
+    width: 32px;
+    height: 32px;
+}
+
+.headers-list-charges {
+    gap: 1.6rem;
+    margin: auto;
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
+}
+
+.title-list-charges {
+    margin-left: 1.6rem;
+    color: var(--color-scale-gray-2);
+    cursor: default;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+}

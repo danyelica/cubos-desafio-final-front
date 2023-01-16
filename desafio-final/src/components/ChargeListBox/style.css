@@ -1,0 +1,110 @@
+.list__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.box__table {
+  width: 100%;
+}
+
+.box--top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 0 2.5rem;
+
+  margin: 1.8rem 0px;
+}
+
+.top__title-single {
+  padding-left: 3.5rem;
+}
+
+.top__title {
+  align-items: center;
+  gap: 8px;
+
+  min-width: 22rem;
+}
+
+.top__number {
+  font-size: 1.6rem;
+
+  padding: 0.3rem 1.5rem;
+  border-radius: 8px;
+}
+
+.list--blue {
+  color: var(--color-support-green-1);
+  background-color: #eef7f7;
+}
+
+.list--red {
+  color: var(--color-support-red-1);
+  background-color: var(--color-support-red-3);
+}
+
+.list--yellow {
+  color: var(--color-support-yellow-1);
+  background-color: var(--color-support-yellow-3);
+}
+
+table {
+  max-height: 29rem;
+  overflow: hidden;
+}
+
+.list__table {
+  width: 100%;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  color: var(--color-scale-gray-4);
+  border-top: 1px solid #eff0f7;
+}
+
+.list__thead {
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  color: var(--color-scale-gray-2);
+}
+
+.list__thead th {
+  margin: 0 25px;
+  padding: 10px 0;
+}
+
+.list__table tr {
+  border-bottom: 1px solid #eff0f7;
+}
+
+.table__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table__row td {
+  padding: 10px;
+  min-width: 11rem;
+
+  text-align: center;
+}
+
+.list__tbody {
+  max-height: 29rem;
+}
+
+a.list__link {
+  margin: 13px 0;
+  text-decoration-line: underline;
+  color: var(--color-primary-2);
+}

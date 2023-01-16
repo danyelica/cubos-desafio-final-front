@@ -1,0 +1,37 @@
+.delete-icon {
+  width: 16rem;
+}
+
+.delete-title {
+  font-size: 1.8rem;
+  color: var(--color-support-yellow-1);
+}
+
+.icon-close-delete {
+  cursor: pointer;
+
+  position: relative;
+  top: -20rem;
+  left: 26rem;
+}
+
+.delete-button {
+  all: unset;
+
+  cursor: pointer;
+
+  padding: 0.5rem 3.5rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: var(--color-secundary-1);
+  background-color: var(--color-secundary-3);
+  border-radius: 4px;
+}
+
+.nodelete-button {
+  margin-right: 1.6rem;
+  color: var(--color-feed-back-red-1);
+  background-color: var(--color-feed-back-red-5);
+}

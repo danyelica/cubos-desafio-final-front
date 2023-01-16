@@ -1,0 +1,42 @@
+.home {
+  overflow: hidden;
+
+  background-color: var(--color-scale-gray-10);
+}
+
+.home__container {
+  margin-left: 15rem;
+  margin-bottom: 35px;
+
+  width: 100vw;
+}
+
+.home__summaries {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 20px 0;
+  width: 82vw;
+}
+
+.home__charges {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 15vw;
+  max-width: 82vw;
+}
+
+.home__clients {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 15vw;
+  max-width: 82vw;
+
+  margin-top: 30px;
+}
+
+.home__clients .list__box {
+  width: 39vw;
+}

@@ -1,0 +1,103 @@
+.container-register-client {
+  padding-top: 4rem;
+  padding-left: 15rem;
+  padding-bottom: 10rem;
+}
+
+.icon-register-client {
+  width: 32px;
+  height: 32px;
+}
+
+.title-register-client {
+  margin-left: 1.6rem;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 130%;
+  color: var(--color-scale-gray-2);
+  cursor: default;
+}
+
+.headers-register-client {
+  align-items: center;
+  cursor: default;
+  margin: auto;
+  padding: 1.5rem 2rem;
+  justify-content: space-between;
+}
+
+.btn-register-client {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 267px;
+  height: 33px;
+
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-left: 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+  border-radius: 1rem;
+
+  color: var(--color-scale-gray-10);
+  background-color: var(--color-primary-2);
+  cursor: pointer;
+}
+
+.icon-filter-register-client {
+  margin-left: 2.4rem;
+  cursor: pointer;
+}
+
+.input-search-register-client {
+  all: unset;
+  box-sizing: border-box;
+  width: 322px;
+  height: 45px;
+  font-size: 1.6rem;
+  margin-left: 1.6rem;
+  border-radius: 1rem;
+  padding: 0.7rem 0.8rem;
+  background: var(--color-scale-gray-11);
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(218, 1, 117, 0.05);
+  padding-right: 4rem;
+  cursor: auto;
+}
+
+.input-search-register-client::placeholder {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: var(--color-scale-gray-3);
+}
+
+.icon-search-register-client {
+  position: absolute;
+  right: 0.7rem;
+  top: 0.7rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1600px) {
+  .container-register-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headers-register-client {
+    width: 1500px;
+  }
+
+  .btn-register-client {
+    width: 300px;
+  }
+
+  .icon-filter-register-client {
+    margin-left: 4rem;
+  }
+}

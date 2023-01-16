@@ -1,0 +1,133 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 88vw;
+
+    margin-top: 5rem;
+    margin-left: 10vw;
+    padding: 0 8rem 2.5rem 8rem;
+    border-bottom: 1px solid var(--color-secundary-3);
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: var(--color-scale-gray-1);
+}
+
+.header__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 50px;
+    min-height: 50px;
+
+    border-radius: 50%;
+    color: var(--color-secundary-2);
+    background-color: var(--color-scale-gray-8);
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon__text,
+.header__text {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.icon__text {
+    font-size: 2.2rem;
+}
+
+.header__text {
+    color: var(--color-secundary-2);
+    font-size: 1.8rem;
+}
+
+.header__arrow {
+    cursor: pointer;
+}
+
+.header__menu {
+    display: flex;
+    gap: 20px;
+
+    position: absolute;
+    top: 15vh;
+    right: 3vw;
+    padding: 10px;
+
+    border-radius: 8px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 4px 42px rgba(0, 0, 0, 0.2));
+}
+
+.menu__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.menu__polygon {
+    position: absolute;
+    margin-top: -18px;
+}
+
+.menu__icon img {
+    width: 16px;
+}
+
+.menu__icon:last-child {
+    gap: 4px;
+}
+
+.menu__icon:last-child img {
+    width: 17px;
+}
+
+.div-error-success-main {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 2;
+}
+
+.subtitle {
+    display: flex;
+    position: absolute;
+    left: 17rem;
+    top: 9rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: default;
+}
+
+.nameTitle {
+    cursor: pointer;
+    color: var(--color-secundary-2);
+}
+
+.subtitle__path {
+    margin-left: 1rem;
+    color: var(--color-scale-gray-3);
+}
+
+@media only screen and (min-width: 1440px) {
+    .header__menu {
+        top: 11vh;
+        right: 3.9vw;
+    }
+}
